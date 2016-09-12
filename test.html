@@ -1,0 +1,28 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!--load bootstrap-->
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/app.css">
+	<!--socket-->
+	<script src='http://127.0.0.1:8080/socket.io/socket.io.js'></script>
+	<!--jquery-->
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-8 draw-area">
+			<canvas width="600" height="300" id="canvas"></canvas>
+		</div>
+		<div class="col-md-4">
+			<div class="list-users">
+				<p><span></span></p>
+			</div>
+			<button class="btn btn-danger" id="btn_clear">Clear</button>
+		</div>
+	</div>
+<script type="text/javascript" src="draw.js"></script>
+</body>
+</html>

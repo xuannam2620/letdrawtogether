@@ -1,0 +1,16 @@
+div.container{
+	padding-top: 10px;
+}
+.colors{
+	border: 1px solid gray;
+	height: 250px !important;
+}
+.draw-area{
+	padding: 0px 0px;
+}
+.draw-area canvas{
+	border:1px dotted #CCC;
+}
+.list-users{
+	height: 250px;
+}
